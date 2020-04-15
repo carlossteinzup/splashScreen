@@ -8,7 +8,6 @@ object RotateView {
 
     fun generateRotateValueAnimatorVertical(animatedView: View) : ValueAnimator {
 
-
         // construct the value animator and define the range
         val valueAnimator = ValueAnimator.ofFloat(0f, 360f)
 
@@ -30,7 +29,6 @@ object RotateView {
     }
 
     fun generateRotateValueAnimatorHorizontal(animatedView: View) : ValueAnimator {
-
 
         // construct the value animator and define the range. This value is set in degrees
         val valueAnimator = ValueAnimator.ofFloat(0f, 360f)
